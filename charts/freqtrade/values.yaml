@@ -718,8 +718,6 @@ configuration:
     sort_key: quoteVolume
     min_value: 0
     refresh_period: 1800
-  edge:
-    enabled: false
   api_server:
     enabled: false
     listen_ip_address: 0.0.0.0
