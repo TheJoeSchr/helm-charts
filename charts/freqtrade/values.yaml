@@ -724,11 +724,13 @@ configuration:
     listen_port: 8080
     verbosity: error
     enable_openapi: false
-    jwt_secret_key: 19bfacb2cd240f9aefaf9e72894cc51fdd882a91fa39fd0641254efc1d2bce11
-    ws_token: "-2oN1YMVwfwnW7RfJJCiOKtG3SPGaNXNeA"
+    # not used 
+    # look above in `auth:` for ENV variables which are actually propagated
+    jwt_secret_key: notused
+    ws_token: "notused"
     CORS_origins: []
-    username: ftk8s
-    password: supersecret123
+    username: notused
+    password: notused
   bot_name: freqtrade
   initial_state: running
   force_entry_enable: false
